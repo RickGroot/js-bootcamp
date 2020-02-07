@@ -34,7 +34,8 @@ Undef.: wanneer er geen waarde is gegeven aan een variebele, maar wel wordt opge
 > 	return a + b;    
 > }    
 > console.log(sum(1, 3));    
-> //4    
+> //4   
+
 Invoken, apply en calling is het aanroepen van een functie.    
 Functies altijd laten zien in de console met console.log.    
 Argumenten geef je mee wanneer je de functie aanroept.    
@@ -47,7 +48,8 @@ Conditional: If, else if , else. Wanneer iets, dan...
 > for (var index = 0; index < 10; index++){    
 > 	console.log(index);    
 > }    
-> //er komt in de console 1 tot 9    
+> //er komt in de console 1 tot 9   
+
 Code in het blok wordt telkens opnieuw uitgevoerd wanneer de condities nog geldig zijn.    
 In het voorbeeld word dus eerst 0 gelogd, en dan is 0<10 dus word 1 gelogd, enz.    
 
@@ -62,6 +64,7 @@ Runtime phase: Lezen van functies en var wanneer deze worden opgeroepen.
 > 	[key]: value,    
 > 	[key]: 'value'    
 > }    
+
 Objecten kun je meerdere keys met waardes geven, let wel op de komma tussen de keys.    
 Objecten worden vaak gebruikt om je code op te schonen en overzichtelijker te maken.    
 object.[key]: Het aanroepen van 1 key in het object doe je met een punt.    
@@ -69,6 +72,7 @@ object.[key]: Het aanroepen van 1 key in het object doe je met een punt.
 
 ### 8. Array
 > var array = ["data", 14, true, "meer data];    
+
 Wanneer je een array oproept moet je uitkijken, want hij ziet het namelijk als een string.    
 Met array.length kun je achterhalen hoeveel items er in een array zitten.    
 Het tellen van een array begint vanaf 0! Het eerste item is dus item nummer 0.    
@@ -81,6 +85,7 @@ array.push({object: "data"}); Dit voegt een nieuw object toe aan een array. Met 
 > 	console.log(student);    
 > })    
 > //er word alle info van studenten weergeven.    
+
 Dus een functie met daarin een functie is een higher order function.    
 In dit voorbeeld word er gebruik gemaakt van een method (forEach), methods zijn ook functions.    
 Methods: map/filter/reduce. Deze gaan over een array en returnen iets. Oproepen: array.map(function(){functie})    
