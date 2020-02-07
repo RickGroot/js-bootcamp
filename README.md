@@ -30,11 +30,11 @@ Undef.: wanneer er geen waarde is gegeven aan een variebele, maar wel wordt opge
 
 
 ### 4. Functions
-function sum(a, b) {    
-	return a + b;    
-}    
-console.log(sum(1, 3));    
-//4    
+> function sum(a, b) {    
+> 	return a + b;    
+> }    
+> console.log(sum(1, 3));    
+> //4    
 Invoken, apply en calling is het aanroepen van een functie.    
 Functies altijd laten zien in de console met console.log.    
 Argumenten geef je mee wanneer je de functie aanroept.    
@@ -44,10 +44,10 @@ Conditional: If, else if , else. Wanneer iets, dan...
 
 
 ### 5. Loops
-for (var index = 0; index < 10; index++){    
-	console.log(index);    
-}    
-//er komt in de console 1 tot 9    
+> for (var index = 0; index < 10; index++){    
+> 	console.log(index);    
+> }    
+> //er komt in de console 1 tot 9    
 Code in het blok wordt telkens opnieuw uitgevoerd wanneer de condities nog geldig zijn.    
 In het voorbeeld word dus eerst 0 gelogd, en dan is 0<10 dus word 1 gelogd, enz.    
 
@@ -58,17 +58,17 @@ Runtime phase: Lezen van functies en var wanneer deze worden opgeroepen.
 
 
 ### 7. Object
-var object = {    
-	[key]: value,    
-	[key]: 'value'    
-}    
+> var object = {    
+> 	[key]: value,    
+> 	[key]: 'value'    
+> }    
 Objecten kun je meerdere keys met waardes geven, let wel op de komma tussen de keys.    
 Objecten worden vaak gebruikt om je code op te schonen en overzichtelijker te maken.    
 object.[key]: Het aanroepen van 1 key in het object doe je met een punt.    
 
 
 ### 8. Array
-var array = ["data", 14, true, "meer data];    
+> var array = ["data", 14, true, "meer data];    
 Wanneer je een array oproept moet je uitkijken, want hij ziet het namelijk als een string.    
 Met array.length kun je achterhalen hoeveel items er in een array zitten.    
 Het tellen van een array begint vanaf 0! Het eerste item is dus item nummer 0.    
@@ -77,26 +77,26 @@ array.push({object: "data"}); Dit voegt een nieuw object toe aan een array. Met 
 
 
 ### 9. Higher order function
-array.forEach(function(student) {    
-	console.log(student);    
-})    
-//er word alle info van studenten weergeven.    
+> array.forEach(function(student) {    
+> 	console.log(student);    
+> })    
+> //er word alle info van studenten weergeven.    
 Dus een functie met daarin een functie is een higher order function.    
 In dit voorbeeld word er gebruik gemaakt van een method (forEach), methods zijn ook functions.    
 Methods: map/filter/reduce. Deze gaan over een array en returnen iets. Oproepen: array.map(function(){functie})    
 Map: returnd array met specifiek datatype. return student.name; //je krijgt: ["naam1", "naam2", "naam3"]    
 Filter: returnd array van wat true is, dus het hele object.     //je krijgt: [{name:"piet", age: 15}]    
 Reduce: returnd array van wat jij zelf wilt.    
-array.map(function(a){		//gebruik .map over een array, en voert voor elk element de functie uit.    
-	return a.name;		//return de naam van elk object.			    		
-)}				//sluit de functie af.				    			
-times.reduce(function(fastestTime, currentTime) {	//array van tijden, daarover gaat een functie die ze vergelijkt.    
-	if (fastestTime > currentTime.time){		//if die snelste tijd met huidige vergelijkt    
-		return currentTime.time			//returnt de huidige tijd als snelste tijd    
-	} else {					//else aanroepen voor als de tijd niet beter is    
-		return fastestTime			//als de tijd niet sneller is word de oude gereturnd    
-	}    
-}, infinity)						//tijd begint heel hoog zodat mensen lager kunnen (beginwaarde)    
+> array.map(function(a){		//gebruik .map over een array, en voert voor elk element de functie uit.    
+> 	return a.name;		//return de naam van elk object.			    		
+> )}				//sluit de functie af.				    			
+> times.reduce(function(fastestTime, currentTime) {	//array van tijden, daarover gaat een functie die ze vergelijkt.    
+> 	if (fastestTime > currentTime.time){		//if die snelste tijd met huidige vergelijkt    
+> 		return currentTime.time			//returnt de huidige tijd als snelste tijd    
+> 	} else {					//else aanroepen voor als de tijd niet beter is    
+> 		return fastestTime			//als de tijd niet sneller is word de oude gereturnd    
+> 	}    
+> }, infinity)						//tijd begint heel hoog zodat mensen lager kunnen (beginwaarde)    
 
 
 ### 10. Scopes
