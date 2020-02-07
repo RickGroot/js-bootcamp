@@ -4,15 +4,15 @@
 
 
 ### 1. Browser & client
-De browser voert JS uit, je hebt dus een browser nodig.
-De browser is hier dus de client. Bestanden staan op een server. (Server met back-end)
-Front-End: Client, JS
-Back-End: Server, JS, met Node.js zodat je het zonder browser kunt uitvoeren
+De browser voert JS uit, je hebt dus een browser nodig.    
+De browser is hier dus de client. Bestanden staan op een server. (Server met back-end)    
+Front-End: Client, JS    
+Back-End: Server, JS, met Node.js zodat je het zonder browser kunt uitvoeren    
 
 
 ### 2. ECMAscript
-Overkoepelende naam van alle JS versies.
-Afkorting: ES, wij gaan werken met ES6, en ze zijn backwards compatible.
+Overkoepelende naam van alle JS versies.    
+Afkorting: ES, wij gaan werken met ES6, en ze zijn backwards compatible.    
 
 
 ### 3. Values & Types
