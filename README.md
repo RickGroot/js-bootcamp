@@ -1,21 +1,21 @@
 # js-bootcamp
 
-##Notities JS bootcamp:
+## Notities JS bootcamp:
 
 
-###1. Browser & client
+### 1. Browser & client
 De browser voert JS uit, je hebt dus een browser nodig.
 De browser is hier dus de client. Bestanden staan op een server. (Server met back-end)
 Front-End: Client, JS
 Back-End: Server, JS, met Node.js zodat je het zonder browser kunt uitvoeren
 
 
-###2. ECMAscript
+### 2. ECMAscript
 Overkoepelende naam van alle JS versies.
 Afkorting: ES, wij gaan werken met ES6, en ze zijn backwards compatible.
 
 
-###3. Values & Types
+### 3. Values & Types
 In totaal zijn er 7 datatypes (string, boolean, null, number, undefined enz).
 null en undefined zijn aparte datatypes, vaak bij errors.
 JS corrigeert vaak strings en nummers, zoals var cijfer = '4'-3;.
@@ -29,7 +29,7 @@ Null: deze waarde geef je iets wanneer de waarde nog niet bekend is, is zelf in 
 Undef.: wanneer er geen waarde is gegeven aan een variebele, maar wel wordt opgeroepen.
 
 
-###4. Functions
+### 4. Functions
 function sum(a, b) {
 	return a + b;
 }
@@ -43,7 +43,7 @@ Conditional: If, else if , else. Wanneer iets, dan...
 ==: gebruiken wanneer iets hetzelfde moet zijn, ===: wanneer het ook hetzelfde datatype moet zijn.
 
 
-###5. Loops
+### 5. Loops
 for (var index = 0; index < 10; index++){
 	console.log(index);
 }
@@ -52,12 +52,12 @@ Code in het blok wordt telkens opnieuw uitgevoerd wanneer de condities nog geldi
 In het voorbeeld word dus eerst 0 gelogd, en dan is 0<10 dus word 1 gelogd, enz.
 
 
-###6. Flow
+### 6. Flow
 Creation/compile phase: Alle functies en var worden gelezen en opgeslagen in geheugen. Van boven naar beneden.
 Runtime phase: Lezen van functies en var wanneer deze worden opgeroepen.
 
 
-###7. Object
+### 7. Object
 var object = {
 	[key]: value,
 	[key]: 'value'
@@ -67,7 +67,7 @@ Objecten worden vaak gebruikt om je code op te schonen en overzichtelijker te ma
 object.[key]: Het aanroepen van 1 key in het object doe je met een punt.
 
 
-###8. Array
+### 8. Array
 var array = ["data", 14, true, "meer data];
 Wanneer je een array oproept moet je uitkijken, want hij ziet het namelijk als een string.
 Met array.length kun je achterhalen hoeveel items er in een array zitten.
@@ -76,7 +76,7 @@ console.log(typeof []); = het type van een array is een object.
 array.push({object: "data"}); Dit voegt een nieuw object toe aan een array. Met .push, word toegevoegd als laatste.
 
 
-###9. Higher order function
+### 9. Higher order function
 array.forEach(function(student) {
 	console.log(student);
 })
@@ -99,14 +99,14 @@ times.reduce(function(fastestTime, currentTime) {	//array van tijden, daarover g
 }, infinity)						//tijd begint heel hoog zodat mensen lager kunnen (beginwaarde)
 
 
-###10. Scopes
+### 10. Scopes
 Een globale variabele kan overal vandaan opgeroepen worden. Dus vanuit alle scopes.
 Local variabelen zijn binnen hun eigen scope. Dus alles wat in een functie staat is daarbuiten niet te zien.
 If is een block scope, een var kun je wel roepen van buiten een if statement. Let en Const is niet te roepen.
 Vanuit een function kan je niet een var roepen.
 
 
-###11. Hoisting
+### 11. Hoisting
 Dit is een javaScript ding, en word niet in andere talen gebruikt. Hier doen we later wss weinig mee.
 Variabelen en functies horen aan de bovenkant van je code, behalve als je gaat hoisten.
 Wanneer je hoist roep je een functie als eerst aan, waardoor deze altijd beschikbaar is.
@@ -114,7 +114,7 @@ Je globaliseert de variabele, ookal maak je de var pas ergens beneden aan.
 Hoisting is niet handig en niet echt toe te passen, behalve in speciale gevallen. Blijf er zoveel mogelijk bij weg.
 
 
-###Xx. handig
+### Xx. handig
 "henk".includes("h"); = true, dus henk bevat een h. 
 String("henk").length; = 4, dus er zitten 4 karakters in henk.
 In een array kun je makkelijk objecten zetten, je kan ook makkelijk over een array loopen. (automatisering)
